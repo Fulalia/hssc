@@ -1,0 +1,31 @@
+MANIFEST — EN-LLM comparator arm provenance
+===========================================
+
+Generation date: 2026-10-05
+Model: GLM (Zhipu AI / Z.ai), instruction-tuned general-purpose large language model.
+Runtime version string: account:bigmodel-individual-coding-plan/GLM-5.3 (as reported by
+the inference environment at generation time).
+Decoding: single pass per sentence; default deterministic settings of the host
+environment; no temperature/sampling parameters were exposed to the operator and none
+are claimed.
+Prompt (verbatim, applied to each sentence individually):
+    "Translate the following Korean defense white paper excerpt into accurate, fluent
+    English."
+Constraints supplied to the model operator (documented in the manuscript Methods):
+- translate sentence by sentence, one pass, no post-editing;
+- no glossary, terminology list, or access to the official English translation;
+- preserve source agency and modality; where the Korean leading referent is
+  contextually implicit, render with a bracketed subject (e.g., "[we]") rather than
+  resolving it;
+- no additions, omissions, or evaluative intensification.
+
+Files:
+- corpus/en_llm_translations.tsv  (idx <TAB> English rendering; idx joins to
+  corpus/sample150.json and outputs/pairs_aligned.json)
+
+Note for reviewers and replicators: the comparator arm is deliberately replaceable.
+Running the same prompt over corpus/sample150.json with any other instruction-tuned
+model (e.g., GPT-4o via API) and re-executing scripts 04-06 regenerates every
+downstream statistic. A reference implementation for OpenAI-compatible endpoints is
+provided as scripts/00_optional_regenerate_comparator.py (requires an API key; not
+needed to reproduce the deposited results).
