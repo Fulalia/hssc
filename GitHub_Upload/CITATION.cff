@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the manuscript."
+title: "Shifting Frames of Distress: Depression Metaphors in Korean Twitter Discourse Before and During the COVID-19 Pandemic (data and verification code)"
+authors:
+  - family-names: "[Author]"
+    given-names: "[to be completed]"
+type: dataset
+repository-code: "https://github.com/[user]/[repository]"
+abstract: "Aggregate data and numerical-consistency verification code for a diachronic computational analysis of depression metaphors in Korean Twitter discourse (2019 vs 2021)."
+keywords:
+  - conceptual metaphor theory
+  - depression
+  - COVID-19
+  - Korean
+  - Twitter
+  - computational linguistics
+license: MIT

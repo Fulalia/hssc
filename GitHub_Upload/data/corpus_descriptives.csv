@@ -1,0 +1,8 @@
+metric,x2019,x2021
+total_tweets,103582,118764
+metaphoric_tweets,34907,54872
+metaphoric_pct,33.7,46.2
+mean_metaphor_density_sd,1.24 (0.51),1.41 (0.62)
+mean_tweet_length_words,17.3,18.1
+mean_valence_all_tweets_sd,2.49 (0.69),2.36 (0.71)
+unique_users,89432,89432

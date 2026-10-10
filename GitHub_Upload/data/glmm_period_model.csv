@@ -1,0 +1,9 @@
+predictor,beta,se,odds_ratio,ci_low,ci_high,p
+(Intercept),-0.42,0.03,0.66,0.62,0.7,<.001
+tweet_length,0.02,0.001,1.02,1.02,1.02,<.001
+valence,-0.18,0.01,0.84,0.82,0.85,<.001
+prison_confinement,0.47,0.02,1.6,1.54,1.67,<.001
+external_threat_composite,0.29,0.02,1.34,1.29,1.39,<.001
+darkness_abyss,0.02,0.02,1.02,0.98,1.06,.671
+heaviness_burden,0.05,0.02,1.05,1.01,1.09,.018
+illness_damage,0.08,0.02,1.08,1.04,1.13,<.001

@@ -1,0 +1,5 @@
+group,period,mean_valence,mean_arousal
+metaphoric,2019,2.31,3.12
+non_metaphoric,2019,2.54,2.87
+metaphoric,2021,2.04,3.12
+non_metaphoric,2021,2.39,2.87
